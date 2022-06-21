@@ -46,3 +46,20 @@ the following command
 ```properties
 npm run test
 ```
+
+
+### Instructions
+### 1. Home Page
+http://localhost:3000/
+Endpoint to Home Page with welcome message and how to use resizer api
+### 2. Image Endpoint
+To use resizing you could type url as follow:
+http://localhost:3000/api/images?imageName=(filename)&width=(positiveinteger)&height=(positiveinteger)
+
+
+    Available filenames are:
+        encenadaport
+        fjord
+        icelandwaterfall
+        palmtunnel
+        santamonica
